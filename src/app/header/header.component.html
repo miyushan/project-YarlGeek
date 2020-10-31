@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-md navbar-dark  default-color fixed-top">
+
+  <a class="btn navbar-brand"  routerLink="/home">
+    <img src="../../assets/logo.png" alt="" loading="lazy">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul id="navbackground" class="navbar-nav ml-auto mt-2 mt-md-0">
+        <li routerLink="/home" routerLinkActive="active" class="nav-item active">
+          <button class="btn nav-link" >Home</button>
+          <div class="dropdown-divider"></div>
+        </li>
+        <li (click)="toContact()" routerLinkActive="active" class="nav-item">
+          <button class="btn nav-link" >Contact</button>
+          <div class="dropdown-divider"></div>
+        </li>
+        <li routerLink="/aboutUs" routerLinkActive="active" class="nav-item">
+          <button class="btn nav-link" >About Us</button>
+          <div class="dropdown-divider"></div>
+        </li>
+        <li routerLink="/projects" routerLinkActive="active" class="nav-item">
+          <button class="btn nav-link" >Projects</button>
+          <div class="dropdown-divider"></div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a routerLink="/home"  class="btn dropdown-item">Web Development</a>
+              <div class="dropdown-divider"></div>
+              <a routerLink="/home" class="btn dropdown-item">Software Development</a>
+              <div class="dropdown-divider"></div>
+              <a routerLink="/home" class="btn dropdown-item">Artificial Intelligence</a>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+
+    </div>
+
+</nav>
+
+
+
+

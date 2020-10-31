@@ -1,0 +1,153 @@
+.wrapper{
+
+    padding-top: 130px;
+}
+
+#profile1{
+    margin: 0 0 0 0;
+    max-height: 450px;
+    min-height: 430px;
+    background:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.767), rgba(13, 13, 14, 0.795)),
+        url('../../assets/profilePic1.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#profile2{
+    margin: 0 0 0 0;
+    max-height: 450px;
+    min-height: 430px;
+    background:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.767), rgba(13, 13, 14, 0.795)),
+        url('../../assets/profilePic2.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#profile3{
+    margin: 0 0 0 0;
+    max-height: 450px;
+    min-height: 430px;
+    background:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.767), rgba(13, 13, 14, 0.795)),
+        url('../../assets/profilePic3.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#profile4{
+    margin: 0 0 0 0;
+    max-height: 450px;
+    min-height: 430px;
+    background:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.767), rgba(13, 13, 14, 0.795)),
+        url('../../assets/profilePic4.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#profile5{
+    margin: 0 0 0 0;
+    max-height: 450px;
+    min-height: 430px;
+    background:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.767), rgba(13, 13, 14, 0.795)),
+        url('../../assets/profilePic5.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.photo-container{
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.row{
+    text-align: center;
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+}
+
+h3,h5{
+    text-align: center;
+    color: white;
+}
+h5{
+    font-style: oblique;
+}
+h3{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+#aboutMe{
+    color: blueviolet;
+    padding-top: 3%;
+}
+
+p{
+    margin-top: 25px;
+    padding-left: 20% ;
+    padding-right: 20%;
+}
+
+.btn{
+    background-color: blueviolet;
+    width: fit-content;
+    color: white;
+}
+
+.text-black{
+    color: black;
+    font-size: 120%;
+}
+
+.container1{
+    margin-bottom: 4%;
+}
+
+#prof{
+    margin-top: 10%;
+}
+
+#back{
+    width: 6em;
+}
+
+.flex-column{
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 1077px) {
+    .row{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #prof{
+        margin-top: 71px;
+    }
+    p{
+        padding-left: 10% ;
+        padding-right: 10%;
+        margin-bottom: 10%;
+    }
+    #aboutMe{
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    
+}

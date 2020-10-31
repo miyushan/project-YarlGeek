@@ -1,0 +1,17 @@
+
+button{
+    color: white;
+    background-color: blueviolet;
+}
+
+.btn:focus {
+    box-shadow: none; 
+}
+.btn:hover {
+    color: white; 
+}
+
+.space{
+    margin-top: 15%;
+    margin-bottom: 12%;
+}

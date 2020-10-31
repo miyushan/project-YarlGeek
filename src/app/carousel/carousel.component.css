@@ -1,0 +1,23 @@
+.container{
+    padding: 0 10%;
+    margin-top: 10%;
+}
+h2{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+    
+    h2{
+        font-size: 1.4em;
+    }
+    .container{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 0;
+    }
+}

@@ -1,0 +1,88 @@
+form{
+    
+    width: 50%;
+    padding: 45px 35px;
+    background: linear-gradient(to bottom right,  rgba(137, 43, 226, 1), rgb(27, 27, 24));
+    margin: auto;
+    margin-bottom: 0;
+
+}
+
+h2{
+    color: blueviolet;
+}
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.btn{
+    background-color:white;
+    color: rgba(137, 43, 226, 1);
+}
+
+input{
+    background-color: whitesmoke;
+}
+
+label{
+    color: white;
+}
+
+.form-group{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#exampleFormControlTextarea2{
+    height: 120px;
+}
+
+form{
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    form{
+        /* padding: 20px; */
+        width: 100%;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+    .container{
+        margin-top: 20%;
+    }
+    #exampleFormControlTextarea2{
+        height: 20vw;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 992px) {
+
+    form{
+    
+        width: 34%;
+    
+    }
+    
+}
+
+.btn:focus {
+    box-shadow: none; 
+}
+
+
+

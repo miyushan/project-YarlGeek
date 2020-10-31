@@ -1,0 +1,54 @@
+
+  <div id="contact" class="container">
+
+    <div class="text-center pb-3">
+      <h2>Contact Us</h2>
+    </div>
+
+    <div> 
+
+      <form>
+        
+         <div class="form-row">
+            <div class="form-group row w-100">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" placeholder="yourName">
+            </div>
+            <div class="form-group row w-100">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="yourEmail@example.com">
+            </div>
+            <div class="form-group row w-100">
+              <label for="feedback">Subject</label>
+              <select formControlName="contactFormSubjects" class="browser-default custom-select ">
+                <option value="" disabled>Choose option</option>
+                <option value="1" selected>Feedback</option>
+                <option value="2">Report a bug</option>
+                <option value="3">Feature request</option>
+                <option value="4">Feature request</option>
+              </select>
+            </div>
+            <div class="form-group row w-100">
+              <label for="inputPassword4">Message</label>
+              <textarea formControlName="contactFormMessage" class="form-control" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group row mt-3 mb-0">
+              <button mdbWavesEffect type="submit" class="btn rounded-pill">Submit</button>    
+            </div>
+        </div>
+
+        
+        
+
+    </form>
+
+    </div>
+
+    
+    
+  </div>
+
+
+
+
+

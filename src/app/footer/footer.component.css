@@ -1,0 +1,53 @@
+#footerBackground{
+    height: 220px;
+    background-color: rgb(24, 5, 41);
+    padding: 30px 0;
+}
+
+
+li{
+    list-style-type: none;
+    margin: auto;
+    padding: 16px;
+    float: left;    
+}
+
+
+ul{
+   padding: 0;
+   margin: 0;
+    
+}
+
+#copyright,#contactUs{
+    font-size: 0.9em;
+}
+
+.btn:focus {
+    box-shadow: none; 
+}
+
+.btn{
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #footerBackground{
+        height: 170px;
+    }
+    #logo{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    div#copyright   {order: 4;}
+    div#contactUs   {order: 1;}
+    div#social      {order: 2;}
+    div#logo        {order: 3;}
+    #copyright{
+        margin-top: 5px;
+    }
+}
+

@@ -1,0 +1,83 @@
+button{
+    border-color: white;
+}
+
+#intro{
+    
+    height: 738px;
+    background-image:
+        linear-gradient(to bottom, rgba(42, 4, 77, 0.849), rgba(13, 13, 14, 0.822)),
+        url('../../assets/coverPhoto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+p{
+    color: white;
+}
+
+  
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#first{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#second{
+    font-style: oblique;
+}
+
+button:hover{
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn:focus {
+    box-shadow: none; 
+}
+
+
+@media screen and (max-width: 768px) {
+    #btn1{
+        text-align: center;
+    }
+
+    #intro{
+        height: 250px;
+    }
+
+    .space{
+        height: 56px;
+    }
+
+    .inner {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+    
+    #first{
+        font-size: 130%;
+        text-align: center;
+    }
+    #second{
+        font-size: 90%;
+        text-align: center;
+    }
+    button{
+        font-size: 75%;
+    }
+
+   
+}
